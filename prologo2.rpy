@@ -21,38 +21,44 @@
         "Pasaron horas y horas, y aun no logro encontrar el camino."
         "Se siente como una eternidad en lo que camino."
         mc"¡Ah, necesito salir!"
-        "Por alguna razón, lo grite." 
+        "Por alguna razón, lo grité." 
         scene l3
         "Después de una larga caminata, logro darme cuenta que ni siquiera estoy en mi ciudad, ¿Y como demonios llegue aquí?"
         mc"Sigo caminando sin rumbo, con esperanzas de encontrar un lugar donde pasar la noche."
         "Después de un rato, logro encontrar un hotel."
+        "Comverzo un rato con la señorita para la residencia."
         e"Perfecto, tenemos un cuarto para usted."
         "Reviso mi billetera en busca de dinero."
         "Saco la cantidad de dinero suficiente, parece que si tenia cambio."
         scene l2
         with fade 
-        "Logro acomodarme, mientras pienso como demonios pare aquí." 
+        "Logro acomodarme, mientras pienso como demonios paré aquí." 
         "Tengo que irme mañana, tengo que lograr ubicarme en el tiempo."
         "Ni siquiera, se que día es."
         
         #ocupar un video de cambio de dia
-        
+        #Estoy en un lugar totalmente solo y perdido pero con Plata ALV
         "Despierto algo cansado, pero estoy bien, pudo ser peor."
-        "Me alegro de que no paso nada, uff"
+        play music bm1
+        "Me alegro de, qué no paso nada, uff"
         scene l4
         with fade 
-        mc"Después de un momento, logro tener una ubicación de donde podría estar, ahora necesitare salir."
+        mc"Después de un momento, logro tener una ubicación de donde podría estar, ahora necesitaré salir."
         "Busco y que busco, y logro encontrar una terminal de viajes."
         "Primero, tengo que buscar un bus."
         "De preferencia que no tenga muchos pasajeros."
         "Enfermarme de alguna gripe o virus no seria lo ideal."
+        #Coronavirus Coronavirus Coronavirus Coronavirus Lavece las manos quedece Tranquilo. Fino señores
+        "Sigo en el mismo pensamiento misero de como es que llegué, decido ver mi billetera."
         scene l5
         with fade 
-        "Bueno, tengo dinero suficiente para irme de aquí."
-        "Después de comprar el boleto."
-        "Me pregunto, ¿Que paso con las chicas? ¿Que paso con ellas?"
-        "Después de un tiempo logro entrar a un bus, pero aun no estoy ubicado del todo."
-        "¡Y ni siquiera se como llegue allí!."
+        "En breve de ver mi billetera veo que... Tengo dinero suficiente para irme de aquí."
+        "Claro. Después de comprar el boleto."
+        "Me pregunto, ¿Qué paso con las chicas?."
+        "Mientras voy esperando... Hay un montón de cosas que recorren mi cabeza, como es que podría..."
+        "Ser que a Sayorí se le ocurrió ese trato, osea planeo todo para que sea yo. ¿El que esté en el club, o solo fue una improvisación?"
+        "Después de un tiempo, siguen los pensamientos en mi cabeza pero en breve viene el autobus, logro tomar un asiento, pero aún no estoy úbicado del todo."
+        "¡Y ni siquiera sé como llegue allí!."
         "Bueno, no importa, ahora ya estoy de camino a casa, parece que logro ubicarme de que es un sábado. Creo que esta bien..."
         "Perfecto, ahora... ¿¡Que sucedió el viernes!?, solo se que estaba con mi uniforme."
         "Recién me doy cuenta que estoy con mi uniforme ahora que me veo, ¡¡¡¡pero que demonios!!"
@@ -61,20 +67,22 @@
         scene t1
         with fade
         "De camino a casa, tengo la alegría de recordar que estuve con Monika una vez cuando fuimos de paseo."
-        "Estuvo genial."
-        "Bueno, después de tener varios pensamientos en el viaje, parece que ya estamos llegando."
-        "Fue muy agradable el viaje, aunque fue sin motivo."
-        "Después de un momento, logre llegar a mi ciudad."
+        "Estuvo genial. Realmente fue muy divertido, todos jugamos y compartimos."
+        "Se siente muy bien ver el camino, como los arboles van y van a tanta velocidad."
+        "Después de tener varios pensamientos en el viaje, parece que ya estamos por llegar."
+        "Fue muy agradable ver espectaculo tan veloz, aunque sin motivo."
+        "Después de un momento, logré llegar a mi ciudad."
         #ejecutar una musica del ddlc
         scene t2
         with fade 
         "Despues de un tiempo, bajo del tren."
         "Ahora, estiro las piernas y doy un bostezo."
-        "Listo para ir a casa, si, eso fue duro pero se como volver."
+        "Listo para ir a casa acabo de encontrar tantos pensamientos. Pero pasaron demasiadas cosas hoy."
+        stop music
         scene pf
         with fade
-        "Necesito hablar con Sayori, no... mejor la visitare."
-        "Hmmm, visitar a Sayori? Eso estaría genial hace días que no lo hago, aunque si que me hablo muy constantemente con ella."
+        "Necesito hablar con Sayori por telefono, no... Mejor la visitaré."
+        "Pero, visitar a Sayori? Eso estaría genial, hace días que no lo hago, aunque si hablo muy constantemente con ella."
         "Es bueno verla, tan brillante y tan energética."
         "Siempre encuentra la manera de hacer a todo genial, hehehe."
         "Bueno, ya estoy llegando a casa."
@@ -259,8 +267,7 @@
         s "Bueno, MC parece que, te tendré que borrar la memoria de lo que escuchaste."
         s "Lo siento... no se puede dejar así, hehe."
         s 2bb "Aunque parece que ignoras toda la conversación, después de hacer todo tipo de preguntas..."
-        #bueno otra vez la consola y pones el texto de persistent memory = false y no usaremos eso hasta el proximo label
-        #En el dia de los inocentes pondras: Borrando memoria del pendejo :V
+        #bueno otra vez la consola y pones el texto de persistent memory = false y no usaremos eso hasta el proximo label 
         play music t8 
         s "Al parecer ya casi el ya-a, no tiene tanto control sobre si mismo, ahora solo ignora todo lo que tiene que ver con el código."
         s 2bn "Ahh, casi lo olvido, ese tipo estaba muy preocupado. Y luego nada, solo te fuiste. No hemos escrito ni recitado poemas."
@@ -268,21 +275,28 @@
         scene sayori_bedroom
         with dissolve
         stop music
-        "Pedire algo para comer... ¿Que debería pedir?. ¡Ya se!, . Una pizza y para mi que sea una lasaña "
+        "Pedire algo para comer... ¿Que debería pedir?, ¡ya se!. Una pizza para poder disfrutar ambos."
         play music gm3
         "Mientras la ayudo recuerdo los muy buenos tiempos de nuestra niñez, es muy lindo volver a verla tan alegre cuando escribe."
+        
         "Seguimos haciendo su trabajo, la alegría nos invade al ver que ya llegó la comida."
         show sayori 4br 
         #Chompilas JSJSJS
         "Desempacó toda la comida, ella esta muy feliz y por consecuencia yo también... Eso sonó como letras de algún rap."
         mc "Hey... ¿Sayori cuanto calculas que tardaremos en tu tarea?."
         "Se lo digo por que me he antojado de unas partidas del Pubg. Pero me sentiría mal si la dejo así."
+        hide sayori 4br 
+        with wipeleft_scene
+        scene Sayoritarea
+        with wipeleft_scene
         s 3bo "¡Esta muy complicado!... No se como podría hacerlo sola." 
+        "Ella voltea su mirada hacia mí."
         s 1bl "[player] gracias por estar aquí."
-        #Para los inocentes no olvidar la musica por y para nada instrumental para ¡¡¡nada!!!
         "Esas palabras me conmueven y activan mis instintos de hermano mayor."
         "Pasan horas y al fin logramos terminar su tarea y nos damos cuenta que era exactamente la parte que no debía hacer."
-        "Suspiro, la acaricio en su hermoso peló coral."
+        scene sayori_bedroom
+        with wipeleft_scene
+        "Suspiro, la acaricio en su hermoso pelo coral."
         show sayori 3bq
         pause 0.3
         "Bueno, termino de hacer mis comentarios y de pagar al amable señor, que nos trajo la comida. Yo, por algún tipo de suerte tenia dinero para pagar la comida."
@@ -342,9 +356,9 @@
         "Ya en casa, lista para abrir la puerta la brisa de la preocupación choca contra mis pensamientos. "
         m "Tranquila ya no deberían pasar mas cosas que afecten a este mundo, pero... Si el hace algo..."
         pause 0.3
-        m "¿Que... pasara con nosotras?."
-        m "Recuerdo las grandes historias, mundos y todo por lo que hemos pasado. Bueno ya tengo que entrar."
-        m "Antes de entrar hacia mi hogar doy una vista hacia la luna, quisiera que... No fuera la misma de siempre."
+        m "¿Que... pasará con nosotras?."
+        m "Recuerdo las grandes historias, mundos y todo por lo que pasamos. Es hora que entrar."
+        m "Antes de entrar hacia mi hogar, doy una vista hacia la luna quisiera que... No fuera la misma de siempre."
         scene black
 
         menu :
@@ -378,7 +392,7 @@
 
         label say:
         
-        c"no se que te paso"
+        s"no se que te paso"
         "empiezo a hablarle sobre todo lo que recuerdo"
         if prometiste =="no":
             c"pero Monika estaba un poco mas sentimental despues del la reunion del club"
@@ -395,4 +409,18 @@
         
         
         "procedo a contarle lo sucedido a Sayori"
-        return    
+        "Ella me mira extrañada, ella no lo entendío."
+        s "Entonces... ¿Tu has estado de paseo?."
+        "Su mirada inocente es la que me conmueve siempre que algo sucede."
+        mc "Sí, no sabia que hacia allí pero personalmente es algo que podria pasar."
+        mc "Me parece bien que este con todos mis organos o al menos totalmente completos."
+        "Ella que sigue haciendo su tarea, ríe un poco."
+        s "¿Te parece bien si terminamos mi tarea y despues vamos a un cafe?. incluso podríamos invitar a alguna amiga."
+        "Me mira como seria ella la que va a pagar pero digo que sí. Iré pensando a quíen invitar."
+        "Pasa un tiempo y decido hacer una broma."
+        mc "¿Sayori Cuanto es 2+1?"
+        "No necesité muchas neuronas para ello."
+        s "Es... ¿21?"
+        mc "Tín tín, ¡correcto!."
+        return
+
