@@ -4,16 +4,16 @@
         ####open_eyes#######dissolve_scene_full########wipeleft###wipeleft_scene
         "Después de una noche de descanso me levanto temprano el día de hoy."
         "Por ahora,  creo que me dispondré de hacer el desayuno para el club del desayuno que hicimos con Sayori, mientras preparo la comida."
-        "Me doy cuenta que ya es tarde así cocino lo mas fácil de cocinar con pan, voy por mi uniforme para irme lo mas rápido hacia la prepa."
+        "Me doy cuenta que ya es tarde así cocino lo mas fácil de cocinar con pan, voy por mi uniforme para irme lo mas rápido hacia la escuela."
         scene club_day
         with dissolve 
-        "El día de clases termino exageradamente rápido, como siempre."
+        "El día de clases terminó exageradamente rápido, como siempre."
         "Lo bueno al menos no puedo quedarme en casa aburrido, estos son los momentos en que le agradezco a Sayori que me incluya en sus grupos."
         "Normalmente nadie se da cuenta que ¡Es un club de 4 lindas chicas! aunque solo estoy yo."
         play sound XD1
-        "Mientras divago por mi pensamientos, escucho unos pasos en el pasadizo ya que este lugar es muy olvidado, normalmente nadie le da importancia a un cartel de... ¡Club de literatura!"
+        "Mientras divago por mi pensamientos escucho unos pasos en el pasadizo. Ya que este lugar es muy olvidado, normalmente nadie le da importancia a un cartel de... ¡Club de literatura!"
         "Pues lo normal es que al ver literatura, parezca aburrido."
-        "De echo yo ni siquiera quería unirme."
+        "De hecho yo ni siquiera quería unirme."
         pause 3.0
         "Esos pasos ya me están cansando"
         "¿Es que acaso no tiene algo mejor que hacer?"
@@ -23,9 +23,9 @@
         "Igual salgo de este lugar."
         scene corridor
         with dissolve
-        "Salgo y veo a un chico increíble mente parecido a mi, aunque solo tiene unos tres cachitos de pelo junto a unos ojos grises."
-        "Nunca he visto a alguien así de parecido, de echo al único que he visto fue a Chad."
-        "Ese tipo, se me queda mirando. ¿Que hace aquí es acaso un Simp?"
+        "Salgo y veo a un chico de apariencia generica, aunque solo tiene unos tres mechones de pelo junto a unos ojos grises."
+        "Nunca he visto a alguien así por aquí, de hecho al único que he visto fue a (Chad)."
+        "Ese tipo, se me queda mirando. ¿Que hace aquí es acaso un baboso?"
         show Ap1
         a "Hey, ¿este es el club de literatura?, Por cierto soy Astora."
         mc "Si pero en este momento no hay nadie solo yo estoy en este lugar"
@@ -42,7 +42,7 @@
         a "Está bien y si a veces ando medio pendejo, bueno un gusto hermano."
         "Ese tipo se fue caminando."
         "Puff ese tipo se lo ha creído, bueno uno menos."
-        "Aun no entiendo por que no se dan cuenta que este es un club de mas de cuatro chicas."
+        "Aún no entiendo por que no se dan cuenta que este es un club de mas de cuatro chicas."
         "Bueno seguiré perdiéndome en mis pensamientos."
         "Regreso al salón."
         scene club_day
@@ -55,6 +55,7 @@
         s 5b "Bueno... ¿Me acompañas a comprar algo de comer.?"
         "Inmediatamente ya se lo que me está pidiendo pero aun así cedo."
         s 4bs "¡Gracias!"
+        #Cambia scena a Monika
         scene piano 
         with open_eyes
         m "No se que hora es."
@@ -85,7 +86,7 @@
         mc "Quien sabe si está practicando para tocar frente a nosotros, ¿recuerdas el día en que lo dijo?."
         s "Y si... ¿Está pensando dejar el club?."
         mc "Lo dudo rotundamente."
-        "Mientras hablo la puerta se abre y pasa Natsuki junto a Yuri."
+        "Mientras hablo, la puerta se abre y pasa Natsuki junto a Yuri."
         y "H-hola..."
         s "Holi... Yuri."
         "Sayori se va a charlar con Yuri."
@@ -118,7 +119,11 @@
         s "Pero, ¡por qué esa actitud!."
         show monika 2i
         m "Bueno tengo esperanzas que el si venga al club para mañana, pero ahora. ¿Qué les gustaria hacer?."
-        m 2a ""
+        n "¿Ya qué?"
+        "Vaya atmosfera que da Natsuki ahora."
+        "Me pregunto... Que habrá pensado ella cuando viné aquí, sea lo que sea."
+        "Dejo de pensar en ello."
+        
 
 
 
